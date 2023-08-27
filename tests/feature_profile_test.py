@@ -19,3 +19,4 @@ class TestProfileFeature(BaseTest):
         self.personal_page.change_name(f"Test {random.randint(1, 10)}")
         self.personal_page.save_changes()
         self.personal_page.is_changed_saved()
+        self.personal_page.make_screeshot("Success")
